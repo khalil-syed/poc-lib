@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SampleCodable: Codable {
+public struct SampleCodable: Codable {
     
     var sampleStr: String = ""
     var sampleInt: Int?
